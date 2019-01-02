@@ -1,0 +1,38 @@
+.parent{
+    background-color:rgb(158, 231, 158) ;
+    min-height: 400px;
+    position: relative;
+}
+.child1,.child2,.child3,.child4,.child5{
+    height:100px;
+    width:100px;
+    position: absolute;
+}
+.child1{
+   background-color: rgb(74, 74, 133);
+   top: 0;
+   left: 0;
+}
+.child2{
+background-color:rgb(231, 231, 133);
+  left: 0;
+  bottom:0;
+}
+.child3{
+    background-color:rgb(49, 20, 77);
+    top:0;
+    right:0;
+} 
+.child4{
+    background-color:rgb(247, 236, 216);
+    right:0;
+    bottom: 0; 
+}
+
+.child5{
+    background-color:rgb(51, 27, 27);
+    left: 0;
+    right: 0;
+    margin:150px auto;
+
+}
